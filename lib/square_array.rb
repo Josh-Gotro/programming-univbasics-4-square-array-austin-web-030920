@@ -5,6 +5,7 @@ def square_array (array)
   while array[count] < array.length do
     new_array = array[count] ** 2
 end
+new_array
 end
 
 
