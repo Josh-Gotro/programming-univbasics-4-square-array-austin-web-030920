@@ -3,7 +3,7 @@ def square_array (array)
   new_array = []
   
   while array[count] < array.length 
-    new_array = array[count] ** 2
+    new_array << array[count] ** 2
 end
 new_array
 end
